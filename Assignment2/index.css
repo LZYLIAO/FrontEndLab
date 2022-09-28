@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://labfile.oss.aliyuncs.com/courses/10535/beans.jpg);
+    font-family: '宋体';
+    padding: 20px;
+}
+div {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+    font-family: '黑体';
+}
+header {
+    font-size: 14px;
+    text-align: center;
+}
+header p {
+    font-style: oblique;
+}
+main {
+    text-align: center;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+
+}
+article {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+article p {
+    display:inline-block;
+    /* text-align: right; */
+}
+article .price {
+    width: 25%;
+    text-align: right;
+}
+.sweets,.coffee {
+    width: 75%;
+    text-align: left;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+a:link {color: black}; 
+a:visited {color: black}; 
+a:hover {color: brown}; 
+a:active {color: brown}
