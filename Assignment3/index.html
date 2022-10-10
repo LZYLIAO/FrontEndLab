@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div>
+        <!-- <div class="head"> -->
+            <header>
+                <h1>注册表单</h1>
+                <p>请填写下面表单要求的信息</p>
+            </header>
+            
+        <!-- </div> -->
+        <main>
+            <form action="">
+                <fieldset>
+
+                    <label for="username">请输入您的姓名:</label>
+                    <input type="text" id="username" placeholder="Name">
+                    <label for="email">请输入您的邮箱:</label>
+                    <input type="text" id="email" placeholder="Email">
+                    <label for="password">请输入您的密码:</label>
+                    <input type="text" id="password" placeholder="Password">
+
+                </fieldset>
+
+                <fieldset>
+                                     
+                    
+                    <label for="">
+                        <input class="radio" type="radio" name="user">个人账户
+                    </label>
+                    <label for="">
+                        <input class="radio" type="radio" name="user">企业账户
+                    </label>
+                    <label for="">
+                        <input class="checkbox" type="checkbox" name="agree">我接受此链接中的
+                        <a href="#">术语和条款</a></label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    
+                    <label for="photo">上传个人照片:</label>
+                    <input type="file" id="photo" placeholder="为选择" aria-placeholder="我">
+                    <label for="age">请输入您的年龄:</label>
+                    
+                    <input type="text" name="username" placeholder="Age" id="age">
+                    
+                    <label for="method">您是通过何种途径知悉我们的?</label>
+                        <select name="" id="method">
+                            <option selected="selected">(请选择)</option>
+                            <option>新闻</option>
+                            <option>视频</option>
+                            <option>论坛</option>
+                            <option>其他</option>
+                        </select>
+                    
+                    <label for="self">您对自己的简要描述:</label>
+                    <textarea name="" id="self" placeholder="简要介绍您自己..."></textarea>
+                    
+
+
+                    
+
+                </fieldset>
+                <input type="button" value="提交" class="btn">
+
+
+            </form>
+
+        </main>
+    </div>
+</body>
+</html>
