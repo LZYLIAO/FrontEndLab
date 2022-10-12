@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+
+}
+h1{
+    text-align: center;
+}
+.thick{
+    border-bottom: 10px solid black;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.medium{
+    border-bottom: 5px solid black;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.thin{
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sp{
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container{
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0px auto;
+}
+.right{
+    float: right;
+    font-weight: bolder;
+}
+.normal span{
+    font-weight: normal;
+}
+.bold{
+    font-weight: bolder;
+}
+.large{
+    font-size: 32px;
+}
+.small{
+    font-size: 14px;
+}
+.indent1{
+    text-indent: 1em;
+}
+.indent2{
+    text-indent: 2em;
+}
+.thin_indent{
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+.cl{
+    clear: both;
+}
+.left{
+    float: left;
+    height: 50px;
+    width: 12px;
+}
+.text{
+    font-size: 10px;
+}
