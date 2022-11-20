@@ -262,17 +262,20 @@ nav a:hover{
 #welcome img{
     min-width: 100%;
     height: 50%;
+
+}
+
+#comu div{
     transition-property: transform;
     transition-duration: 0.1s;
     transition-delay: 0.1s;
     transform: translateY(0rem);
 }
-#welcome img:hover{
+#comu div:hover{
     transition-property: transform;
     transition-duration: 0.1s;
     transition-delay: 0.1s;
     transform: translateY(1rem);
-
 }
 footer{
     background-color: var(--main-blue);
