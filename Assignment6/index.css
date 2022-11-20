@@ -60,6 +60,9 @@ nav a:hover{
     width: 50%;
     text-align: center;
 }
+#two{
+    text-align: right;
+}
 #me section p{
     text-align: center;
 }
