@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1a2749;
+    color: white;
+}
+/* 顶部分数 */
+.score-container {
+    margin: 50px auto;
+    width: 280px;
+    height: 110px;
+    border: 1px solid #5b6b84;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-container .text {
+    width: 50%;
+}
+
+.score-container .score {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-inner {
+    width: 110px;
+    height: 90px;
+    background-color: white;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.score p:first-child {
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.score p:last-child {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* 中间内容 */
+.main-container {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+/* 三角形图片 */
+.triangle {
+    width: 120px;
+    float: left;
+    position: relative;
+    left: 580px;
+    top: 100px;
+    z-index: -1;
+}
+
+/* 按钮倒三角布局 */
+.up,
+.down {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    justify-content: space-around;
+}
+
+/* 按钮样式 */
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-inner {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 7px 0px #babfd5 inset;
+    
+}
+
+.rock {
+    background-color: #5570f5;
+    box-shadow: 0 7px 0 #2945c0;
+    
+}
+
+.paper {
+    background-color: #d93955;
+    box-shadow: 0 7px 0 #9f1632;
+}
+
+.scissors {
+    background-color: #eb9f0b;
+    box-shadow: 0 7px 0 #c76c1b;
+}
+
+main img {
+    width: 50%;
+    height: 50%;
+}
+/* #page1{
+    display: none;
+} */
+
+#page2 .container{
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#page2 .circle{
+    
+    width: 180px;
+    height: 180px;
+    
+}
+#page2 .mid p{
+    font-weight: bold;
+    font-size: 30px;
+}
+#page2 .mid div{
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+#page2 .text{
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.win{
+    filter: drop-shadow(0px 0px 20px white);
+}
+.hide{
+    display: none;
+}
+/* 底部 */
+footer {
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer button {
+    margin-right: 5%;
+    color: white;
+    font-weight: bold;
+    background-color: #1a2749;
+    border: 1px solid #5b6b84;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+/* 遮罩弹窗 */
+#cover{ 
+    position:absolute;left:0px;top:0px;
+    background:rgba(0, 0, 0, 0.5);
+    width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+    height:100%; 
+    display:none; 
+    z-Index:999;  
+}
+
+#modal{ 
+    position:absolute;
+    width:350px;
+    height:360px;
+    top: 25%;
+    left:36.2%;
+    background-color:#fff;
+    display:none;
+    cursor:pointer;
+    z-Index:9999;  
+    border-radius: 5px;
+
+
+}
+#modal .inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#modal .header{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#close{
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+#modal p{
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#modal img{
+    width: 90%;
+    align-self: center;
+}

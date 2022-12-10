@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+
+<body>
+
+
+    <!-- 顶部分数 -->
+    <header>
+        <div class="score-container">
+            <div class="text">
+                <p>石头</p>
+                <p>剪刀</p>
+                <p>布</p>
+            </div>
+            <div class="score">
+                <div class="score-inner">
+                    <p>总得分</p>
+                    <p id="score">0</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 中间内容 -->
+    <!-- 初始页面 -->
+    <main id="page1">
+        <img src="./images//triangle.svg" alt="" class="triangle">
+        <div class="main-container">
+
+            
+
+            <div class="up">
+                <div class="circle rock page1-btn" id="rock">
+                    <div class="circle-inner">
+                        <img src="./images//rock.svg" alt="">
+                    </div>
+                </div>
+                <div class="circle scissors page1-btn" id="scissors">
+                    <div class="circle-inner">
+                        <img src="./images//scissors.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="down">
+                <div class="circle paper page1-btn" id="paper">
+                    <div class="circle-inner">
+                        <img src="./images/paper.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+    </main>
+    <!-- 变化后的页面 -->
+    <main id="page2" class="hide">
+        <div class="container">
+            <div>
+                <p class="text">您的选择</p>
+                <div class="circle rock" id="userBtn">
+                    <div class="circle-inner">
+                        <img id="userImg" src="./images//rock.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mid">
+                <p id="resultText">您赢了</p>
+                <div id="again">再来一局</div>
+            </div>
+            <div>
+                <p class="text">电脑的选择</p>
+                <div class="circle rock" id="pcBtn">
+                    <div class="circle-inner">
+                        <img id="pcImg" src="./images//rock.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- 底部 -->
+    <footer>
+        <button id="rules">游戏规则</button>
+    </footer>
+
+
+
+    <!-- //页面的遮罩层 -->
+    <div id="cover"></div>
+    <!-- //页面的弹出框 -->
+
+    <div id="modal">
+        <div class="inner">
+            <div class="header">
+                <p class="title">游戏规则</p>
+                <svg id="close" t="1670595436137" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="2733" width="16" height="16">
+                    <path
+                        d="M617.92 516.096l272 272-101.824 101.824-272-272-272 272-101.856-101.824 272-272-275.008-275.04L241.056 139.2l275.04 275.04 275.04-275.04 101.824 101.824-275.04 275.04z"
+                        p-id="2734" fill="#5b6b84"></path>
+                </svg>
+            </div>
+            <img src="./images/rules.svg" alt="">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
